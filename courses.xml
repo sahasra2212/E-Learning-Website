@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<courses>
+    <course>
+        <title>Machine Learning</title>
+        <instructor>Dr. Rao</instructor>
+        <price>499</price>
+        <rating>4.5</rating>
+    </course>
+    <course>
+        <title>Deep Learning</title>
+        <instructor>Dr. Kumar</instructor>
+        <price>799</price>
+        <rating>4.6</rating>
+    </course>
+    <course>
+        <title>Data Science</title>
+        <instructor>Mrs.Reddy</instructor>
+        <price>799</price>
+        <rating>4</rating>
+    </course>
+    <course>
+        <title>AI Basics</title>
+        <instructor>Mrs.Sneha</instructor>
+        <price>799</price>
+        <rating>4</rating>
+    </course>
+</courses>
