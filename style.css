@@ -111,3 +111,19 @@ button {
 button:hover {
     background: darkorange;
 }
+.price {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.discount {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.original {
+    text-decoration: line-through;
+    color: gray;
+}
