@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="icon">
+        <div class="logo">Upskill</div>
+
+        <div class="rem">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+
+<div class="sec">
+    <h2>Register</h2>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Name"><br>
+        <input type="email" id="email" placeholder="Email"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <input type="password" id="confirm" placeholder="Confirm Password"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Login</h2>
+
+    <input type="email" id="loginEmail" placeholder="Email"><br>
+    <input type="password" id="loginPassword" placeholder="Password"><br>
+    <button onclick="validateLogin()">Login</button>
+</div>
+
+</body>
+</html>

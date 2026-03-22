@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+body {
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("back.png");
+    background-size: cover;
+    color: white;
+    font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: orangered;
+}
+
+.rem {
+    display: flex;
+    gap: 40px;
+}
+
+.rem a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rem a:hover {
+    color: orangered;
+}
+
+/* Search */
+.sear {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    padding: 5px;
+}
+
+#srch {
+    background: orangered;
+    color: white;
+    border: none;
+}
+
+/* Hero */
+.main {
+    padding: 100px;
+}
+
+.content span {
+    color: orangered;
+}
+
+/* Sections */
+.sec {
+    background: white;
+    color: black;
+    padding: 50px;
+}
+
+/* Courses */
+.course-cont {
+    display: flex;
+    gap: 40px;
+}
+
+.course-card img {
+    width: 200px;
+}
+
+.course-card {
+    padding: 10px;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+}
+
+/* Forms */
+input, textarea {
+    margin: 10px;
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 10px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: darkorange;
+}

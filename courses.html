@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="icon">
+        <div class="logo">Upskill</div>
+
+        <div class="rem">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+
+<div class="sec">
+    <h2>Top Courses</h2>
+
+    <div class="course-cont">
+
+    <div class="course-card">
+        <img src="ima11.png">
+        <h3>Machine Learning</h3>
+        <p>Instructor: Dr. Rao</p>
+
+        <button onclick="showDetails('ml')">View Details</button>
+    </div>
+
+    <div class="course-card">
+        <img src="ima22.png">
+        <h3>Deep Learning</h3>
+        <p>Instructor: Dr. Kumar</p>
+       
+        <button onclick="showDetails('dl')">View Details</button>
+    </div>
+
+    <div class="course-card">
+        <img src="ima33.png">
+        <h3>Data Science</h3>
+        <p>Instructor: Ms. Sneha</p>
+
+        <button onclick="showDetails('ds')">View Details</button>
+    </div>
+
+    <div class="course-card">
+        <img src="ima44.png">
+        <h3>AI Basics</h3>
+        <p>Instructor: Mr. Reddy</p>
+        <button onclick="showDetails('ai')">View Details</button>
+    </div>
+
+</div>
+
+<!-- DETAILS SECTION -->
+<div id="courseDetails" class="sec">
+    <h2>Course Details</h2>
+    <p>Select a course to see details</p>
+</div>
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+</html>
